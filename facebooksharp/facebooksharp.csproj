@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>InstagramSharp</PackageId>
+    <IsPackable>true</IsPackable>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!-- The URL of your public GitHub repository -->
+    <RepositoryUrl>https://github.com/ydahan56/FacebookSharp</RepositoryUrl>
+  
+    <!-- Specify the version control system -->
+    <RepositoryType>GitHub</RepositoryType>
+  
+    <!-- Optional: Links the package to a specific commit during packing -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Description>A simple wrapper around Facebook's Graph API made for simplicity.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.5-beta1" />
+    <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.2" />
+    <PackageReference Include="RestSharp" Version="114.0.1-alpha.0.4" />
+    <PackageReference Include="SimpleInjector" Version="5.5.2" />
+  </ItemGroup>
+
+</Project>

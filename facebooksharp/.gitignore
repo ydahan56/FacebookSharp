@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.snupkg
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+
+# IDE-specific files
+.idea/
+*.swp
+*.swo
+*~
+
+# NuGet Restore
+.nuget/
+*.nupkg
+packages/
+.NuGetDefaults.props
+
+# Package files
+*.nupkg
+*.nuspec
+nuget.exe
+.nuget/
+
+# Local environment variables
+.env
+.env.local
+
+# Mac
+.DS_Store
+
+# Misc
+*.log
