@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>InstagramSharp</PackageId>
+    <PackageId>yoni56.FacebookSharpSdk</PackageId>
     <IsPackable>true</IsPackable>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <!-- The URL of your public GitHub repository -->
